@@ -243,3 +243,4 @@ score += objectTypes[obj.type].points;
 scoreValue.textContent = score; 
 // Inicialización del juego
 let gameInitialized = false;
+// Versión corregida - Wed Apr 23 01:10:31 PM CST 2025
