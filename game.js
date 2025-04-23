@@ -241,3 +241,5 @@ if (window.soundEnabled) {
 // Sumar puntos según tipo de objeto
 score += objectTypes[obj.type].points;
 scoreValue.textContent = score; 
+// Inicialización del juego
+let gameInitialized = false;
