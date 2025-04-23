@@ -57,4 +57,4 @@ El botón "Sonido" en la esquina superior derecha permite activar/desactivar tod
 
 ---
 
-Desarrollado por Gamivo4D Desarrolladores © 2023 
+Desarrollado por Gamivo4D Desarrolladores © 2023 ## Agradecimientos adicionales\n\nAgradecimientos especiales a todos los que apoyaron este proyecto.\n
