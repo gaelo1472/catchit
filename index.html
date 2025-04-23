@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Catch It - Juego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen" class="screen">
+        <h1>CATCH IT</h1>
+        <p>¡Atrapa las gemas y diamantes, evita las bombas!</p>
+        <div id="level-selector" class="level-selector"></div>
+        <button id="start-button" class="main-button">Jugar</button>
+    </div>
+
+    <div id="game-screen" class="screen hidden">
+        <div class="game-info">
+            <div class="info-item">
+                <span class="info-label">Puntos:</span>
+                <span id="score-value">0</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Nivel:</span>
+                <span id="level-value">1</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Vidas:</span>
+                <span id="lives-value">3</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Velocidad:</span>
+                <span id="speed-value">1.0</span>x
+            </div>
+            <div class="info-item">
+                <span class="info-label">Mejor:</span>
+                <span id="best-value">0</span>
+            </div>
+        </div>
+        
+        <div id="game-area" class="level1">
+            <div id="player"></div>
+        </div>
+    </div>
+
+    <div id="level-up-screen" class="screen hidden">
+        <h1>¡NIVEL COMPLETADO!</h1>
+        <p>Has conseguido <span id="level-up-points">0</span> puntos</p>
+        <p>Preparando nivel <span id="next-level-value">2</span></p>
+        <button id="continue-button" class="main-button">Continuar</button>
+    </div>
+
+    <div id="game-over-screen" class="screen hidden">
+        <h1>GAME OVER</h1>
+        <p>Puntuación final: <span id="final-score-value">0</span></p>
+        <p>Nivel alcanzado: <span id="final-level-value">1</span></p>
+        <p>Mejor puntuación: <span id="final-best-value">0</span></p>
+        <button id="restart-button" class="main-button">Reiniciar</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html> 
